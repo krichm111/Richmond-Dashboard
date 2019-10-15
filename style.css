@@ -1,0 +1,285 @@
+body {
+background-color: #e8e8e8;
+}
+
+.container {
+    
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr; 
+     
+  }
+  
+  .box0 {
+grid-column: span 2;
+  }
+
+  .topbox {
+    display: flex;
+    background-color: whitesmoke;
+    
+  }
+
+  .rightside {
+    padding: 10px;
+  }
+
+  .rightside p {
+    border: 1px solid ;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .fix {
+    display: flex;
+  }
+
+  .hello {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+  }
+
+  .box1 {
+    color: grey;
+    background-color: #2e2e2e;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    text-align: center;
+    height: 700px;
+
+  }
+
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 48px;
+    border: 1px solid;
+  }
+
+  .button {
+    background-color: #e8e8e8;
+  }
+
+  .button:hover {
+    background-color: #2e2e2e;
+    color: grey;
+  }
+
+  a {
+    color: grey;
+  }
+
+  a:hover {
+    background-color: #2e2e2e;
+  }
+  
+  .box2 {
+    border: 1px solid;
+    border-radius: 2px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: left;
+    
+  }
+
+  .make {
+    display: flex;
+    justify-content: space-between;
+    grid-column: span 2;
+  }
+  
+  .box3 {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 170px;
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+
+  
+  .box4 {
+    border: 2px solid #522df7;
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: #522df7;
+    background-color: whitesmoke;
+  }
+  
+  .box5 {
+    border: 1px solid;
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  
+  .box6 {
+    border: 1px solid;
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+
+  .box4 a  {
+    color: #522df7;
+  }
+  
+  .footerz {
+    display: flex;
+    justify-content: space-around;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: auto;
+   
+  }
+
+  .bottomleft {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+  }
+
+  .box7 {
+    border: 1px solid;
+    width: 350px;
+    height: 200px;
+    background-color: whitesmoke;
+  }
+
+  .box7.5 {
+    height: 20px;
+    border: 1px solid;
+    background-color: whitesmoke;
+  }
+
+.bright {
+color: #522df7;
+}
+
+.bright a {
+  color: #522df7;
+}
+
+  ul.schedule {
+    list-style-type: none;
+  }
+  
+  .bottomright {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+  }
+  .box8 {
+    border: 1px solid;
+    width: 350px;
+    height: 200px;
+    background-color: whitesmoke;
+    
+  }
+
+.box8.5 {
+  background-color: whitesmoke;
+}
+.both {
+    display: flex;
+  }
+  
+  ul.projectz {
+    list-style-type: none;
+  }
+
+  ul.status {
+    list-style-type: none;
+  }
+
+  /* page 2 */ 
+  
+  .card {
+    border: 1px solid;
+  }
+
+  .whole {
+    display: flex;
+    justify-content: center;
+  }
+
+  .horizon {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+  }
+
+  #page2 .button {
+    background-color: #e8e8e8;
+    width: 300px;
+    border: 1px solid;
+  }
+
+  #page2 .button:hover {
+    background-color: #2e2e2e;
+  }
+  
+  .card-header {
+    background-color: #e8e8e8;
+  }
+
+  .list-group-item {
+    background-color: #e8e8e8;
+  }
+
+  .card-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* page 3 */
+
+  #page3 .button {
+    background-color: #e8e8e8;
+    width: 300px;
+    border: 1px solid;
+  }
+
+  .last {
+    display: flex;
+    justify-content: center;
+  }
+
+  #page3 .button:hover {
+    background-color: #2e2e2e;
+  }
+
+  /* page 4 */
+
+  .horizon1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #page4 .button {
+    background-color: #e8e8e8;
+    width: 300px;
+    border: 1px solid;
+  }
+
+  #page4 .button:hover {
+    background-color: #2e2e2e;
+  }
+
+  .last1 {
+    display: flex;
+    justify-content: center;
+  }
