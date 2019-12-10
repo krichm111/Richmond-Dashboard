@@ -188,7 +188,7 @@ grid-column: span 2;
     background-color: whitesmoke;
   }
 
-  .box7.5 {
+  .box75 {
     height: 20px;
     border: 1px solid;
     background-color: whitesmoke;
@@ -223,9 +223,10 @@ color: #522df7;
     
   }
 
-.box8.5 {
+.box85 {
   background-color: whitesmoke;
 }
+
 .both {
     display: flex;
   }
