@@ -4,10 +4,14 @@ background-color: #e8e8e8;
 
 .container {
     
-    display:grid;
+    display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr; 
+    
      
+  }
+
+  .leftside {
+    padding: 1rem;
   }
   
   .box0 {
@@ -21,6 +25,7 @@ grid-column: span 2;
   .topbox {
     display: flex;
     background-color: whitesmoke;
+    padding: 18px;
     
   }
 
@@ -39,6 +44,10 @@ grid-column: span 2;
     display: flex;
   }
 
+  .fix p {
+    padding-right: 20px;
+  }
+
   .hello {
     display: flex;
     justify-content: flex-end;
@@ -53,7 +62,7 @@ grid-column: span 2;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 300px;
+    max-width: 300px;
     text-align: center;
     height: 700px;
 
@@ -313,3 +322,5 @@ color: #522df7;
     display: flex;
     justify-content: center;
   }
+
+
